@@ -1,0 +1,672 @@
+@media (min-width: 320px) and (max-width: 480px){
+    .container{
+        width: 300px;
+        max-width: 460px;
+    }
+
+    
+    header{
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+
+    .head{
+        box-shadow: 20px 20px 20px rgba(128, 128, 128, 0.236);
+        width: 100%;
+        background-color: #fffffff3;
+        z-index: 100;
+    }
+    .head .img {
+        align-items: center;
+    }
+
+    .logo{
+        width: 30%;
+        margin: 0;
+    }
+
+    .section1{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 80px;
+        text-align: center;
+        
+    }
+    .section1 .msg{
+        align-items: justify;
+        display: flex;
+        flex-direction: column;
+    }
+    .section1 img{
+        width: 100%;
+        height: auto;
+    }
+    .section3{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    
+.three-flex{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 80%;
+
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.section5 .left, .section5 .right{
+    width: 100%;
+    gap: 10px;
+
+}
+.one, .two, .three{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 40px rgba(224, 224, 224, 0.893);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    gap: 10px;
+    padding: 30px 0px;
+
+}
+.three-flex img{
+    width: 80%;
+    height: 100%;
+    padding: 0;
+}
+.section1 .msg p{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.lastcontent {
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.service-section{
+    width: 100%;
+    margin: auto;
+}
+
+.service-section h1{
+    text-align: center;
+    margin: 20px 0px 0px;
+    font-size: 40px;
+}
+.service-section p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+
+
+.sections{
+    display: grid;
+    grid-template-columns:  auto ;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.sectionss{
+    display: grid;
+    grid-template-columns:  auto;
+    gap: 20px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+
+.secction img {
+    height: 10px;
+    padding: 20px;
+    width: 10px;
+}
+
+
+
+.secction{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 2px 2px  20px rgb(207, 207, 207);
+    height: auto;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.secction img{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+.secction h4{
+    text-align: center;
+    font-size: 150%;
+}
+
+
+
+.contact-section{
+    background-image: linear-gradient(270deg ,red, white);
+    padding: 10px 0px;
+
+}
+
+.two-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+}
+
+.contact-section h1{
+    margin: 0;
+    text-align: center;
+}
+.contact-section p{
+    margin: 0;
+    text-align: center;
+}
+
+}
+@media (min-width: 481px) and (max-width: 991px){
+    .container{
+        width: 500px;
+        max-width: 970px;
+    }
+
+    
+    header{
+        background-color: black;
+    }
+
+    .head nav{
+        max-width: 100%;
+        min-width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10px 10px;
+    }
+
+    .head nav ul li a:hover{
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        background-color: #CE1514;
+        border-radius: 10px;
+    }
+
+
+    .head{
+        box-shadow: 20px 20px 20px gray;
+        width: 100%;
+        background-color: #fffffff3;
+        z-index: 100;
+    }
+    .head .img {
+        align-items: start;
+    }
+
+    .logo{
+        width: 30%;
+        margin: 0;
+    }
+
+    .section1{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 80px;
+        
+    }
+    .section1 .msg{
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .section1 img{
+        width: 90%;
+        height: auto;
+    }
+    .section3{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+
+    
+.three-flex{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.section5 .left, .section5 .right{
+    width: 100%;
+    gap: 10px;
+    padding: 0px;
+
+}
+.one, .two, .three{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 40px rgba(224, 224, 224, 0.893);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+    gap: 10px;
+    padding: 20px 0px;
+
+}
+.three-flex img{
+    width: 50%;
+    height: 100%;
+    padding: 0;
+}
+.section1 .msg p{
+    font-size: 20px;
+    text-align: start;
+}
+
+.lastcontent .logo img{
+    width: auto;
+    height: 100px;
+}
+
+.lastcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.service-section{
+    width: 100%;
+    margin: auto;
+}
+
+.service-section h1{
+    text-align: center;
+    margin: 50px 0px 0px;
+    font-size: 40px;
+}
+.service-section p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+
+
+.sections{
+    display: grid;
+    grid-template-columns: auto auto  ;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.sectionss{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+}
+
+
+.secction img {
+    height: 10px;
+    padding: 20px;
+    width: 10px;
+}
+
+
+
+.secction{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 2px 2px  20px rgb(207, 207, 207);
+    height: auto;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.secction img{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.secction h4{
+    text-align: center;
+}
+
+
+
+.contact-section{
+    background-image: linear-gradient(270deg ,red, white);
+    padding: 50px 0px;
+}
+
+.two-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.contact-section h1{
+    margin: 0;
+}
+.contact-section p{
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+}
+
+@media (min-width: 992px){
+    .container{
+        width: 940px;
+    }
+    header{
+        background-color: black;
+    }
+    .head{
+        box-shadow: 20px 20px 20px gray;
+        width: 100%;
+        background-color: #fffffff3;
+        z-index: 100;
+    }
+    .head .img {
+        align-items: start;
+    }
+    .logo{
+        width: 30%;
+        margin: 0;
+    }
+    .section1{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 80px;
+        
+    }
+    .section1 .msg{
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+    }
+    .section1 img{
+        width: 60%;
+        height: 100%;
+    }
+    .section3{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        gap: 30px;
+        flex-direction: row;
+    }
+
+    
+.three-flex{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.section5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.section5 .left, .section5 .right{
+    width: 100%;
+    gap: 10px;
+    padding: 15px;
+
+}
+.one, .two, .three{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 40px rgba(224, 224, 224, 0.893);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 15px;
+    gap: 10px;
+    padding: 20px 0px;
+
+}
+.three-flex img{
+    width: 50%;
+    height: 100%;
+    padding: 0;
+}
+.section1 .msg p{
+    font-size: 20px;
+    text-align: start;
+}
+
+.lastcontent .logo img{
+    width: auto;
+    height: 100px;
+}
+
+
+
+.lastcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.service-section{
+    width: 100%;
+    margin: auto;
+}
+
+.service-section h1{
+    text-align: center;
+    margin: 50px 0px 0px;
+    font-size: 40px;
+}
+.service-section p{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+
+
+.sections{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.sectionss{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    width: 100px;
+    height: 1000px;
+}
+
+
+.secction img {
+    height: 10px;
+    padding: 20px;
+    width: 10px;
+}
+
+
+
+.secction{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 2px 2px  20px rgb(207, 207, 207);
+    height: auto;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.secction img{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+.secction h4{
+    text-align: center;
+}
+
+
+
+.contact-section{
+    background-image: linear-gradient(270deg ,red, white);
+    padding: 50px 0px;
+
+}
+
+.two-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.contact-section h1{
+    margin: 0;
+}
+.contact-section p{
+    margin: 0;
+    text-align: end;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 994px){
+    .container{
+        width: 1000px;
+    }
+}

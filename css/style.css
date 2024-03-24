@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.container{
+    max-width: 1040px;
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section1{
+    margin-top: 80px;
+}
+
+
+p{
+    font-family: "Dancing Script", cursive;;
+}
+
+.logo{
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    max-width: 450px;
+}
+
+header{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.head{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+}
+.head nav{
+    display: flex;
+    align-items: center;
+}
+.head nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+.head nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.head nav ul li a:hover{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #CE1514;
+    border-radius: 10px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: fixed;
+}
+
+
+
+/* service section */
+
+.sections{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.secction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secction img{
+    margin: 0;
+    width: 80%;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section1 */
+
+.section1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+.section1 .msg{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 img{
+    width: 100%;
+    height: 100%;
+}
+.section1 .msg h1{
+    font-size: 45px;
+}
+.section1 .msg p{
+    font-size: 20px;
+    text-align: center;
+}
+.section1 .msg button{
+    background-color: #CE1514;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    border: 0;
+}
+.section1 img{
+    height: 100%;
+}
+
+/* section 2 */
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.section2 p{
+    color: #fbb921;
+    font-size: 22px;
+}
+.section2 h5{
+    font-size: 22px;
+}
+.section3{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+.section3 .part{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 35px rgba(169, 169, 169, 0.301);
+    padding: 10px;
+    margin: 0px;
+}
+.section3 .part img{
+    width: 100%;
+
+}
+.section3 .part h1{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.section3 .part p{
+    text-align: center;
+    margin-bottom: 0;
+    }
+.section3 .part h3{
+    font-size: 30px;
+    opacity: .5;
+}
+.sectionss{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    width: auto;
+    height: auto;
+}
+
+.secction img {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
+
+.section3 .part button{
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color: #CE1514;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.section4 {
+    text-align: center;
+    margin: auto;
+}
+
+.section4 .text{
+    align-items: center;
+    font-size: 38px;
+    margin-top: 150px;
+    margin-bottom: 5px;
+}
+.section4 .line{
+    width: 180px;
+    height: 5px;
+    display: block;
+    background-image: linear-gradient(90deg, rgba(251, 185, 33, 1) 0%, rgba(251, 185, 33, 0.42025862068965514) 100%);
+    margin: auto;
+    margin-bottom: 80px;;
+}
+
+
+.three-flex{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.section5{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    flex-direction: column;
+}
+
+.section5 .left, .section5 .right{
+    width: 100%;
+    gap: 10px;
+    padding: 0px 0px;
+
+}
+.one, .two, .three{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 40px rgba(224, 224, 224, 0.893);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 15px;
+    gap: 10px;
+    padding: 20px 0px;
+
+}
+
+.one h1, .two h1, .three h1{
+    margin: 0px;
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.three-flex img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.lastcontent {
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.lastcontent ul{
+    padding: 0;
+    text-align: left;
+    
+}
+
+.lastcontent ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.lastcontent ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.social{
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.social h1{
+    margin: 5px;
+}
+
+.social-tag{
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #ce14146b;
+    margin:0px 0px;
+    padding: 00px 0px 50px 0px;
+
+}

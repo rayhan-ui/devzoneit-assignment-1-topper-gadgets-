@@ -1,0 +1,43 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.form td{
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #682a2a;
+}
+
+
+.form ::placeholder{
+    opacity: .6;
+    color: white;
+    
+}
+
+
+
+.form input{
+    color: white;
+    background-color: #682a2a;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+.form input[type="submit"]{
+    width: 120px;
+    cursor: pointer;
+    height: 35px;
+}
+
+.form input[type="reset"]{
+    width: 120px;
+    cursor: pointer;
+    height: 35px;
+}
+
